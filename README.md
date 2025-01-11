@@ -12,3 +12,13 @@
 - created a routes:BrowserRouter-->Routes-->Route
 - created an Outlet for rendering the children routes
 - Created the footer
+
+## session 2
+
+- created a login card
+- installed axios library
+- installed CORS in backend, then created a cors middleware added origin,credentials
+- whitelisted the origin domain name in the back end in cors({origin:"http://localhost:5173",credentials:true})
+- when ever you are calling the axios add: {WithCredentials:true} to the axios, then only we can see the cookies token set in the browser.
+- if you dont pass this withcredentials , it will not send the token back in the other api's
+- installed the redux toolkit: npm install @reduxjs/toolkit react-redux
