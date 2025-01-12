@@ -22,3 +22,10 @@
 - when ever you are calling the axios add: {WithCredentials:true} to the axios, then only we can see the cookies token set in the browser.
 - if you dont pass this withcredentials , it will not send the token back in the other api's
 - installed the redux toolkit: npm install @reduxjs/toolkit react-redux
+
+## session 3
+
+- made the routes are not accessible without login
+- if th etoken is invalid , redirect to login page
+- logout page
+- profile page
