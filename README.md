@@ -28,4 +28,6 @@
 - made the routes are not accessible without login
 - if th etoken is invalid , redirect to login page
 - logout page
-- profile page
+- feed page has been built
+- added the card to the feed
+- built the profile screen.
