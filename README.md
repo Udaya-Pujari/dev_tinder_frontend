@@ -31,3 +31,8 @@
 - feed page has been built
 - added the card to the feed
 - built the profile screen.
+
+## session 4
+- NOTE: to display the data from the store, make use of useselector
+- built connection page
+- built connection request page to see all the request
