@@ -33,6 +33,13 @@
 - built the profile screen.
 
 ## session 4
+
 - NOTE: to display the data from the store, make use of useselector
 - built connection page
 - built connection request page to see all the request
+
+## session 5
+
+- send ignore and interest in feed page
+- Signup page completed.
+- accepting and sending request completed

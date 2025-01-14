@@ -12,6 +12,7 @@ const Requests = () => {
 
   const reviewRequest = async (status, _id) => {
     try {
+      // eslint-disable-next-line no-unused-vars
       const res = await axios.post(
         BASE_URL + "/request/review/" + status + "/" + _id,
         {},
