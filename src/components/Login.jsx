@@ -57,7 +57,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex justify-center my-5">
+    <div className="flex justify-center my-3">
       <div className="card bg-base-300 w-96 shadow-xl">
         <div className="card-body">
           <h2 className="card-title justify-center">
@@ -66,7 +66,7 @@ const Login = () => {
           <div>
             {!isLoginForm && (
               <>
-                <label className="form-control w-full max-w-xs my-2">
+                <label className="form-control w-full max-w-xs my-1">
                   <div className="label">
                     <span className="label-text">First Name</span>
                   </div>
@@ -78,7 +78,7 @@ const Login = () => {
                     onChange={(e) => seFirstName(e.target.value)}
                   />
                 </label>
-                <label className="form-control w-full max-w-xs my-2">
+                <label className="form-control w-full max-w-xs my-1">
                   <div className="label">
                     <span className="label-text">Last Name</span>
                   </div>
@@ -92,7 +92,7 @@ const Login = () => {
                 </label>
               </>
             )}
-            <label className="form-control w-full max-w-xs my-2">
+            <label className="form-control w-full max-w-xs my-1">
               <div className="label">
                 <span className="label-text">Email Id</span>
               </div>
@@ -104,7 +104,7 @@ const Login = () => {
                 onChange={(e) => setEmailID(e.target.value)}
               />
             </label>
-            <label className="form-control w-full max-w-xs my-2">
+            <label className="form-control w-full max-w-xs my-1">
               <div className="label">
                 <span className="label-text">password</span>
               </div>
@@ -118,7 +118,7 @@ const Login = () => {
             </label>
           </div>
           <p className="text-red-500">{error}</p>
-          <div className="card-actions justify-center m-2">
+          <div className="card-actions justify-center m-1">
             <button
               className="btn btn-primary"
               onClick={isLoginForm ? handleLogin : handleSignup}
@@ -127,7 +127,7 @@ const Login = () => {
             </button>
           </div>
           <p
-            className="mx-auto cursor-pointer py-2"
+            className="mx-auto cursor-pointer py-1"
             onClick={() => setIsLoginForm((value) => !value)}
           >
             {isLoginForm ? "New user? Signup here" : "Existing user? Login her"}
